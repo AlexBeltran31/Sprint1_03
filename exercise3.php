@@ -16,3 +16,10 @@ echo $array [4] . "\n";
 print_r($array);
 
 // dos formas de mostrar una array por pantalla
+// ex 2
+
+$colors = array("red", "blue", "green", "purple", "grey", "yellow");
+echo "Size of the array: " . count($colors) . "\n";
+unset($colors[3]);
+echo "New size of the array: " . count($colors) . "\n";
+print_r($colors);
