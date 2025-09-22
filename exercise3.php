@@ -43,3 +43,16 @@ $words = ["hola", "php", "html"];
 echo containChar($words, "h") ? "true\n" : "false\n";
 echo containChar($words, "l") ? "true\n" : "false\n";
 echo containChar($words, "r") ? "true\n" : "false\n";
+
+// ex 4
+$personal_info = array(
+    "Name" => "Alex Beltran",
+    "Age" => "26",
+    "Email" => "alexbeltranrt@gmail.com",
+    "Fav food" => "ramen"
+);
+
+echo "Name: " . $personal_info["Name"] . "\n";
+echo "Age: " . $personal_info["Age"] . "\n";
+echo "Email: " . $personal_info["Email"] . "\n";
+echo "Fav food: " . $personal_info["Fav food"] . "\n";
